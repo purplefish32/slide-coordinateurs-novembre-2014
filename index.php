@@ -37,7 +37,7 @@
     <div id="charges" class="step slide" data-y="2000" data-x="3000">
         <h2>Répartition du travail sur les 6 derniers mois</h2>
         <center>
-            <canvas id="myChart" width="500" height="500"></canvas>
+            <canvas id="myChart" width="400" height="400"></canvas>
             <div id="placeholder"></div>
         </center>
     </div>
