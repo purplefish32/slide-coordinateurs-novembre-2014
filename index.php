@@ -11,7 +11,6 @@
 
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
     <link href="css/impress-demo.css" rel="stylesheet" />
-    <link href="css/gantti.css" rel="stylesheet" />
 </head>
 
 <body class="impress-not-supported" style="height: 100%; overflow: hidden">
@@ -46,156 +45,6 @@
         <center>
             <img src="img/calendrier.png" alt="calendrier" />
         </center>
-    </div>
-    <div id="calendrier2" class="step calendar" data-x="6500">
-        <?php
-
-            require('lib/gantti.php');
-
-            date_default_timezone_set('UTC');
-            setlocale(LC_ALL, 'en_US');
-
-            $data = array();
-
-            $data[] = array(
-              'label' => 'Nöel',
-              'start' => '2014-12-24',
-              'end'   => '2015-01-05',
-              'class' => 'urgent'
-            );
-
-            $data[] = array(
-              'label' => 'SELF',
-              'start' => '2014-11-17',
-              'end'   => '2015-05-31',
-              'class' => 'important'
-            );
-
-            $data[] = array(
-              'label' => '<strong>Pilote 1 Chinois (CO)</strong>',
-              'start' => '2014-11-17',
-              'end'   => '2014-12-08'
-            );
-
-            $data[] = array(
-              'label' => '<strong>Pilote 2 Chinois ?</strong>',
-              'start' => '2015-04-01',
-              'end'   => '2015-04-30'
-            );
-
-            $data[] = array(
-              'label' => '<strong>Specs Pré-test</strong>',
-              'start' => '2014-12-08',
-              'end'   => '2014-12-24'
-            );
-
-
-            $data[] = array(
-              'label' => '<strong>Pré-test Italien</strong>',
-              'start' => '2015-01-05',
-              'end'   => '2015-02-28'
-            );
-
-            $data[] = array(
-              'label' => '<strong>Pré-test Anglais</strong>',
-              'start' => '2015-01-05',
-              'end'   => '2015-02-28'
-            );
-
-
-            $data[] = array(
-              'label' => "Editeur d'activités",
-              'start' => '2014-11-17',
-              'end'   => '2015-05-31',
-              'class' => 'important'
-            );
-
-            $data[] = array(
-              'label' => "ENPA",
-              'start' => '2014-11-17',
-              'end'   => '2015-05-31',
-              'class' => 'important'
-            );
-
-            $data[] = array(
-              'label' => "<strong>Maintenance</strong>",
-              'start' => '2014-11-17',
-              'end'   => '2015-05-31'
-            );
-
-            $data[] = array(
-              'label' => "<strong>Evolutions</strong>",
-              'start' => '2014-11-17',
-              'end'   => '2015-05-31'
-            );
-
-            $data[] = array(
-              'label' => "Collecticiel",
-              'start' => '2014-11-17',
-              'end'   => '2015-05-31',
-              'class' => 'important'
-            );
-
-            $data[] = array(
-              'label' => "<strong>Spec</strong>",
-              'start' => '2014-11-17',
-              'end'   => '2014-12-24',
-            );
-
-            $data[] = array(
-              'label' => "<strong>Dev</strong>",
-              'start' => '2015-01-05',
-              'end'   => '2015-05-31',
-            );
-
-            $data[] = array(
-              'label' => "Innovason",
-              'start' => '2014-11-17',
-              'end'   => '2015-05-31',
-              'class' => 'important'
-            );
-
-            $data[] = array(
-              'label' => "<strong>Kinéphone</strong>",
-              'start' => '2014-11-17',
-              'end'   => '2014-12-24'
-            );
-
-            $data[] = array(
-              'label' => "<strong>Intégration ENPA</strong>",
-              'start' => '2015-01-05',
-              'end'   => '2015-05-31',
-            );
-
-            $data[] = array(
-              'label' => "Gamer",
-              'start' => '2014-11-17',
-              'end'   => '2015-05-31',
-              'class' => 'important'
-            );
-
-            $data[] = array(
-              'label' => "<strong>Spec</strong>",
-              'start' => '2014-11-17',
-              'end'   => '2015-02-01',
-            );
-
-            $data[] = array(
-              'label' => "<strong>Dev</strong>",
-              'start' => '2015-02-01',
-              'end'   => '2015-05-31',
-            );
-
-            $gantti = new Gantti($data, array(
-              'title'          => '',
-              'cellwidth'  => 25,
-              'cellheight' => 35
-            ));
-
-
-            echo $gantti;
-
-        ?>
     </div>
     <div id="infra" class="step slide" data-x="0" data-y="1300">
         <h2>Modifications d'infrastructure</h2>
@@ -232,7 +81,6 @@ if ("ontouchstart" in document.documentElement) {
 <script src="js/impress.js"></script>
 <script src="js/Chart.js"></script>
 <script src="js/legend.js"></script>
-<script src="js/timesheet.js"></script>
 <script>impress().init();</script>
 <script charset="utf-8">
     var data = [
