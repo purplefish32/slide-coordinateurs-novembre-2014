@@ -59,6 +59,9 @@
             <li>Migration des plateformes de test/eval/démo</li>
             <li>Utiliser Amazon S3 comme support de stockage</li>
             <li>Mise en cache des médias</li>
+            <li>Mise en place d'un système d'email transactionel</li>
+            <li>Mise en place d'un mailcatcher sur le serveur de dev</li>
+            <li>Inspecter les lenteurs sur SELF</li>
         </ul>
     </div>
     <div id="longview" class="step slide" data-x="1500" data-y="1500">
