@@ -62,7 +62,7 @@
         </ul>
     </div>
     <div id="longview" class="step slide" data-x="1500" data-y="1500">
-        <h2>Longview</h2>
+        <h2>Stats sur la capacité des serveurs (Monitoring Longview)</h2>
         <center>
             <img src="img/longview.png" alt="Longview" width="65%"/>
         </center>
