@@ -100,7 +100,7 @@ if ("ontouchstart" in document.documentElement) {
           value: 20,
           color: "#EDC951",
           highlight: "#FFC870",
-          label: "20% (1 ETP)  : Themppo/COCA/Kinéphone"
+          label: "20% (1 ETP)  : Themppo/COCA/Kinéphones"
       },
       {
           value: 10,
