@@ -197,7 +197,7 @@
 
         ?>
     </div>
-    <div id="infra" class="step slide" data-x="0" data-y="1200">
+    <div id="infra" class="step slide" data-x="0" data-y="1300">
         <h2>Modifications d'infrastructure</h2>
         <h3>Fait</h3>
         <ul>
