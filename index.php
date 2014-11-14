@@ -158,7 +158,7 @@
             );
 
             $data[] = array(
-              'label' => "<strong>Kinéphones</strong>",
+              'label' => "<strong>Kinéphone</strong>",
               'start' => '2014-11-17',
               'end'   => '2014-12-24'
             );
@@ -209,7 +209,7 @@
         </ul>
         <h3>À faire</h3>
         <ul>
-            <li>Migration des plateformes de test/eval/demo</li>
+            <li>Migration des plateformes de test/eval/démo</li>
             <li>Utiliser Amazon S3 comme support de stockage</li>
             <li>Mise en cache des médias</li>
         </ul>
@@ -266,7 +266,7 @@ if ("ontouchstart" in document.documentElement) {
           value: 20,
           color: "#EDC951",
           highlight: "#FFC870",
-          label: "20% (1 ETP)  : Themppo/COCA/Kinéphones"
+          label: "20% (1 ETP)  : Themppo/COCA/Kinéphone"
       }
   ];
 
