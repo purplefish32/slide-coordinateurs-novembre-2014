@@ -30,7 +30,7 @@
         </center>
     </div>
     <div id="fiches" class="step slide" data-x="3000">
-        <h2>Présentation des fiches</h2>
+        <h2>Présentation des fiches fonctionnelles</h2>
     </div>
     <div id="github" class="step slide" data-x="3000" data-y="700">
         <h2>Point sur les tickets GitHub</h2>
