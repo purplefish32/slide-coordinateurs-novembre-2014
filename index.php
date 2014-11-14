@@ -33,7 +33,7 @@
         <h2>Présentation des fiches fonctionnelles</h2>
     </div>
     <div id="github" class="step slide" data-x="3000" data-y="700">
-        <h2>Point sur les tickets GitHub</h2>
+        <h2>Point sur l'état de la plateforme ENPA</h2>
     </div>
     <div id="charges" class="step slide" data-y="2000" data-x="3000">
         <h2>Répartition du travail sur les 6 derniers mois</h2>
