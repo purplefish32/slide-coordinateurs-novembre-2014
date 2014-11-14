@@ -43,13 +43,11 @@
         </center>
     </div>
     <div id="calendrier" class="step calendar" data-x="4500">
-        <h2>Calendrier prévisionnel</h2>
         <center>
             <img src="img/calendrier.png" alt="calendrier" />
         </center>
     </div>
     <div id="calendrier2" class="step calendar" data-x="6500">
-        <h2>Calendrier prévisionnel</h2>
         <?php
 
             require('lib/gantti.php');
