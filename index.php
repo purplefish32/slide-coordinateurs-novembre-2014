@@ -33,6 +33,13 @@
     </div>
     <div id="github" class="step slide" data-x="3000" data-y="700">
         <h2>Point sur l'état de la plateforme ENPA</h2>
+        <ul>
+            <li>~ 4 Formations</li>
+            <li>~ 2 Langues</li>
+            <li>~ 87 Parcours publiés</li>
+            <li>~ 350 Etudiants</li>
+            <li>~ 10 Tuteurs</li>
+        </ul>
     </div>
     <div id="charges" class="step slide" data-y="2000" data-x="3000">
         <h2>Répartition du travail sur les 6 derniers mois</h2>
