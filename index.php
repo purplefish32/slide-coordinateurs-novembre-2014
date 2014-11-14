@@ -32,7 +32,7 @@
     <div id="fiches" class="step slide" data-x="3000">
         <h2>Présentation des fiches</h2>
     </div>
-    <div id="github" class="step slide" data-x="3000" data-y="500">
+    <div id="github" class="step slide" data-x="3000" data-y="700">
         <h2>Point sur les tickets GitHub</h2>
     </div>
     <div id="charges" class="step slide" data-y="2000" data-x="3000">
