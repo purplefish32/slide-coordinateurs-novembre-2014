@@ -14,45 +14,33 @@
     <link href="css/gantti.css" rel="stylesheet" />
 </head>
 
-<body class="impress-not-supported">
+<body class="impress-not-supported" style="height: 100%; overflow: hidden">
 
 <div class="fallback-message">
     <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
     <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
 </div>
 <div id="impress">
-    <div id="intro" class="step slide" data-x="0">
+    <div id="intro" class="step slide" data-x="0" data-scale="2">
         <center>
             <p>
-                <img src="img/logo_web.jpg" alt="Logo innova" width="500px">
+                <img src="img/logo_web.jpg" alt="Logo innova" width="600px">
                 <h1>Journée des coordinateurs</h1>
             </p>
         </center>
     </div>
-    <div id="outline" class="step slide" data-x="1000">
-        <h2>Sommaire</h2>
-        <ul>
-            <li>Présentation des fiches</li>
-            <li>Répartition des charges sur les 6 derniers mois</li>
-            <li>Calendrier prévisionnel</li>
-            <li>Modifications d'infrastructure</li>
-            <li>Longview</li>
-        </ul>
-    </div>
-    <div id="fiches" class="step slide" data-x="2000">
+    <div id="fiches" class="step slide" data-x="3000">
         <h2>Présentation des fiches</h2>
     </div>
-    <div id="charges" class="step slide" data-x="3000">
-        <h2>Les 6 derniers mois</h2>
+    <div id="github" class="step slide" data-x="3000" data-y="500">
+        <h2>Point sur les tickets GitHub</h2>
+    </div>
+    <div id="charges" class="step slide" data-y="2000" data-x="3000">
+        <h2>Répartition du travail sur les 6 derniers mois</h2>
         <center>
-            <canvas id="myChart" width="250" height="250"></canvas>
+            <canvas id="myChart" width="500" height="500"></canvas>
             <div id="placeholder"></div>
         </center>
-        <footer>
-              <p>
-                  ETP : Équivalent temps plein
-              </p>
-        </footer>
     </div>
     <div id="calendrier" class="step calendar" data-x="4500">
         <h2>Calendrier prévisionnel</h2>
@@ -211,7 +199,7 @@
 
         ?>
     </div>
-    <div id="infra" class="step slide" data-x="0" data-y="1000">
+    <div id="infra" class="step slide" data-x="0" data-y="1200">
         <h2>Modifications d'infrastructure</h2>
         <h3>Fait</h3>
         <ul>
@@ -226,7 +214,7 @@
             <li>Mise en cache des médias</li>
         </ul>
     </div>
-    <div id="longview" class="step slide" data-x="1000" data-y="1000">
+    <div id="longview" class="step slide" data-x="1500" data-y="1500">
         <h2>Longview</h2>
         <center>
             <img src="img/longview.png" alt="Longview" width="65%"/>
