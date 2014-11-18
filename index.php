@@ -40,6 +40,7 @@
             <li>~ 350 Etudiants</li>
             <li>~ 10 Tuteurs</li>
         </ul>
+        <img src="img/stats.jpg" alt="tickets" />
     </div>
     <div id="charges" class="step slide" data-y="2000" data-x="3000">
         <h2>Répartition du travail sur les 6 derniers mois</h2>
